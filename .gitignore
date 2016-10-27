@@ -1,0 +1,12 @@
+# Compiled source #
+###################
+*.dll
+*.exe
+
+# Packages #
+############
+*.zip
+
+# gulp output #
+###############
+/dist/**
