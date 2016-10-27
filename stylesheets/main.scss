@@ -1,0 +1,43 @@
+$topText: "Segoe UI", "Tahoma", "sans-serif";
+
+header {
+	display: block;
+	height: 250px;	
+}
+
+.entrance {
+	height: auto;
+	background-color: lightgray;
+	display: block;
+
+div, img {
+		margin-right: 5px;
+	}
+}
+
+.title {
+	display: inline-block;
+	font-weight: 800;
+	font-size: 70px;
+	font-family: $topText;
+	height: 100px;
+	vertical-align: middle;
+}
+
+.inline-image {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-color: darkgray;
+}
+
+table#toolbar {
+	background-color: red;
+	border: 2px;
+	width: 100%;
+
+	td{
+		text-align: center;
+	}
+}

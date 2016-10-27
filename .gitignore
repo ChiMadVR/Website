@@ -10,3 +10,7 @@
 # gulp output #
 ###############
 /dist/**
+
+# node modules #
+###############
+/node_modules/**
