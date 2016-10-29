@@ -2,7 +2,6 @@ $topText: "Segoe UI", "Tahoma", "sans-serif";
 
 header {
 	display: block;
-	height: 250px;	
 }
 
 .entrance {
@@ -40,4 +39,23 @@ table#toolbar {
 	td{
 		text-align: center;
 	}
+}
+
+table#main {
+  width: 100%;
+  background-color: darkgray;
+  table-layout: fixed;
+  td{
+  	text-align: center;
+  	height: 600px;
+  }
+}
+
+.left-right-boarder{
+	td{
+		border-left-style: solid;
+	  	border-right-style: solid;
+	  	border-left-width: thin;
+	  	border-right-width: thin;
+	  }
 }
