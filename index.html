@@ -1,7 +1,30 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<title>Website</title>
+		<meta charset="UTF-8">
+		<!-- AngularJS Set Up Top-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- 1.Load libraries -->
+			<!-- Polyfill for older browers -->
+		<script scr="node_modules/core-js/client/shim.min.js"></script>
+		<script src="node_modules/zone.js/dist/zone.js"></script>
+		<script src="mode_modules/reflect-metadata/Reflect.js"></script>
+		<script src="node_modules/systemjs/dist/system.src.js"></script>
+
+		<!-- 2. Configure SystemJS -->
+		<script src="systemjs.config.js"></script>
+		<script>
+			System.import('app').catch(function(err){console.error(err);})
+		</script>
+		<!-- AngularJS Set Done-->
+
 		<link rel="stylesheet" type="text/css" href="dist\main.css">
+		<link rel="stylesheet" type="text/css" href="dist\bootstrap.css">
+		<script src="dist\jquery.min.js""></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 	</head>
 	<header>
 		<div class="entrance">
@@ -10,7 +33,17 @@
 		</div>
 		<table id=toolbar>
 			<tr class="left-right-boarder">
-				<td>One</td>
+				<td>
+					<div class="dropdown">
+					<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+					<span class="caret"></span></button>
+					<ul class="dropdown-menu">
+					<li>HTML</a></li>
+					<li>CSS</a></li>
+					<li>JavaScript</a></li>
+					</ul>
+					</div>
+				</td>
 				<td>Two</td>
 				<td>Three</td>
 				<td>Four</td>
@@ -21,7 +54,7 @@
 		<table id="main" class ="main">
 			<tr>
 				<td>Left Content</td>
-				<td>Center Content</td>
+				<td> <my-app> ANGULAR 2...</my-app></td>
 				<td>Right Content</td>
 			</tr>
 		</table>
