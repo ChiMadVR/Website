@@ -3,7 +3,7 @@ Template for Personal Website w/apps
 
 Creating Personal Website for experimenting with new web technologies
 
-Interation Goals
+Iteration Goals
 
 Version 1.1.0 will have a complete functional web site that will
 	link to personal projects, blogs, a bio page, and one web app
